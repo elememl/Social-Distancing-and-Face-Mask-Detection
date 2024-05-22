@@ -44,9 +44,11 @@
 :loudspeaker: During Installation be sure to check to set *Environmental variable path* 
 
 * Create new Environment for the installation of libraries:
-	* Open Command Prompt / Anaconda Prompt and type `conda create --name tf_python`  
+	* Open Command Prompt / Anaconda Prompt and type `conda create --name tf_python `
+    * `conda activate tf_python`
+    * `conda install pip`
 	you can set any name in place of tf_python to create a new envionment. and after type `y` and enter.
-	* Install all required Libraries given in <font color="red">requirement.txt</font> by using command `pip install -r requirement.txt`
+    * Install all required Libraries given in <font color="red">requirements.txt</font> by using command `pip install -r requirement.txt`
 	 
 > #### Required Libraries--
 * ![](https://img.shields.io/badge/TensorFlow-v2.4.0-blue)   &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;  [TensorFlow](https://pypi.org/project/tensorflow/)
